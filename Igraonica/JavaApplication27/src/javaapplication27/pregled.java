@@ -38,6 +38,7 @@ public class pregled extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         ukupno = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -94,6 +95,9 @@ public class pregled extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 510, -1, -1));
 
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/slike/cat-gamer-minimal-4k-ai.jpg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-930, -20, 2030, 670));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -129,6 +133,7 @@ public class pregled extends javax.swing.JFrame {
                 os.println("");
             }
             os.println("");
+            os.println("Danasnja zarada: \n"+ ukupno.getText());
             os.close();
             System.out.println("Сачувано!");
         } catch (IOException e) {
@@ -143,12 +148,12 @@ public class pregled extends javax.swing.JFrame {
         ukupno.setText(sum+" rsd");
     }//GEN-LAST:event_jButton1MouseClicked
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
+       ukupno.setText("");
         double sum=0; 
         for (int i=0; i<tabela.getRowCount(); i++){
             sum = sum + Double.parseDouble(tabela.getValueAt(i, 3).toString());
         }
         ukupno.setText(sum+" rsd");
-       jButton2.setEnabled(false);
     }//GEN-LAST:event_jButton2MouseClicked
 
     
@@ -195,6 +200,7 @@ public class pregled extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane1;
     private static javax.swing.JTable tabela;
     private javax.swing.JTextField ukupno;

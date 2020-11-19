@@ -80,6 +80,8 @@ public class ps4 extends javax.swing.JFrame {
         datum1 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         obavestenje = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -351,7 +353,6 @@ public class ps4 extends javax.swing.JFrame {
         datum1.setForeground(new java.awt.Color(0, 255, 0));
         getContentPane().add(datum1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 510, 140, 60));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\cat-gamer-minimal-4k-ai.jpg")); // NOI18N
         jLabel5.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
                 jLabel5MouseMoved(evt);
@@ -362,6 +363,10 @@ public class ps4 extends javax.swing.JFrame {
         obavestenje.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         obavestenje.setForeground(new java.awt.Color(255, 102, 102));
         getContentPane().add(obavestenje, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 220, 240));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-900, -10, 1960, 640));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/slike/cat-gamer-minimal-4k-ai.jpg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-930, -20, 2030, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -615,6 +620,8 @@ public class ps4 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JButton kokaKola;
     private javax.swing.JTextField milisekunda1;
     private javax.swing.JTextField minut1;

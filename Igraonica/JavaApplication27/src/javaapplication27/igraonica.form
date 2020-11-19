@@ -3,6 +3,9 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="0" red="0" type="rgb"/>
+    </Property>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[710, 660]"/>
     </Property>
@@ -40,9 +43,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Sylfaen" size="24" style="1"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jovan Milutinovic\Desktop\Igraonica\JavaApplication27\slike\icons8_playstation_48px.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="PS4"/>
       </Properties>
       <Events>
@@ -64,9 +64,6 @@
         </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Sylfaen" size="24" style="1"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jovan Milutinovic\Desktop\Igraonica\JavaApplication27\slike\icons8_playstation_48px.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="PS1"/>
       </Properties>
@@ -90,9 +87,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Sylfaen" size="24" style="1"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jovan Milutinovic\Desktop\Igraonica\JavaApplication27\slike\icons8_playstation_48px.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="PS2"/>
       </Properties>
       <Events>
@@ -115,9 +109,6 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Sylfaen" size="24" style="1"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jovan Milutinovic\Desktop\Igraonica\JavaApplication27\slike\icons8_playstation_48px.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="PS3"/>
       </Properties>
       <Events>
@@ -132,15 +123,15 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Jovan Milutinovic\Desktop\Igraonica\JavaApplication27\slike\cat-gamer-minimal-4k-ai.jpg"/>
+          <Image iconType="3" name="/slike/cat-gamer-minimal-4k-ai.jpg"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="-1000" y="-190" width="1800" height="990"/>
+          <AbsoluteConstraints x="-930" y="-20" width="2030" height="670"/>
         </Constraint>
       </Constraints>
     </Component>

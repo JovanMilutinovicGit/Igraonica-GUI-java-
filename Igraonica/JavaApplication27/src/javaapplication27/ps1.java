@@ -360,18 +360,13 @@ public class ps1 extends javax.swing.JFrame {
 
         obavestenje.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         obavestenje.setForeground(new java.awt.Color(255, 102, 102));
-        getContentPane().add(obavestenje, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 220, 240));
+        getContentPane().add(obavestenje, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 220, 240));
 
         datum1.setForeground(new java.awt.Color(0, 255, 0));
         getContentPane().add(datum1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 510, 150, 60));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\cat-gamer-minimal-4k-ai.jpg")); // NOI18N
-        jLabel6.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
-                jLabel6MouseMoved(evt);
-            }
-        });
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1000, -190, 2200, 990));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/slike/cat-gamer-minimal-4k-ai.jpg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-930, -20, 2030, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -563,10 +558,6 @@ public class ps1 extends javax.swing.JFrame {
     private void stop1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_stop1MouseMoved
         obavestenje.setText(pomoc);
     }//GEN-LAST:event_stop1MouseMoved
-
-    private void jLabel6MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseMoved
-        
-    }//GEN-LAST:event_jLabel6MouseMoved
 
     private void formMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseMoved
         obavestenje.setText("");

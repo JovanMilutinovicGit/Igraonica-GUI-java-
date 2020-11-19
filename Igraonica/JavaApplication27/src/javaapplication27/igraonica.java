@@ -33,9 +33,10 @@ public class igraonica extends javax.swing.JFrame {
         soni1 = new javax.swing.JButton();
         soni2 = new javax.swing.JButton();
         soni3 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 0, 204));
         setPreferredSize(new java.awt.Dimension(710, 660));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -47,7 +48,6 @@ public class igraonica extends javax.swing.JFrame {
 
         soni4.setBackground(new java.awt.Color(0, 255, 0));
         soni4.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
-        soni4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\icons8_playstation_48px.png")); // NOI18N
         soni4.setText("PS4");
         soni4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -58,7 +58,6 @@ public class igraonica extends javax.swing.JFrame {
 
         soni1.setBackground(new java.awt.Color(0, 255, 0));
         soni1.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
-        soni1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\icons8_playstation_48px.png")); // NOI18N
         soni1.setText("PS1");
         soni1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -69,7 +68,6 @@ public class igraonica extends javax.swing.JFrame {
 
         soni2.setBackground(new java.awt.Color(0, 255, 0));
         soni2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
-        soni2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\icons8_playstation_48px.png")); // NOI18N
         soni2.setText("PS2");
         soni2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -80,7 +78,6 @@ public class igraonica extends javax.swing.JFrame {
 
         soni3.setBackground(new java.awt.Color(0, 255, 0));
         soni3.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
-        soni3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\icons8_playstation_48px.png")); // NOI18N
         soni3.setText("PS3");
         soni3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -89,8 +86,8 @@ public class igraonica extends javax.swing.JFrame {
         });
         getContentPane().add(soni3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 270, 250, 160));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\cat-gamer-minimal-4k-ai.jpg")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1000, -190, 1800, 990));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/slike/cat-gamer-minimal-4k-ai.jpg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-930, -20, 2030, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -168,7 +165,7 @@ public class igraonica extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel6;
     protected static javax.swing.JButton soni1;
     protected static javax.swing.JButton soni2;
     protected static javax.swing.JButton soni3;

@@ -34,6 +34,8 @@ public class pristup extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -45,7 +47,6 @@ public class pristup extends javax.swing.JFrame {
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(51, 204, 0));
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\icons8_approval_48px.png")); // NOI18N
         jButton3.setText("Verifikacija");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,9 +63,11 @@ public class pristup extends javax.swing.JFrame {
 
         jLabel2.setText("foxgaming");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 130, -1, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jovan Milutinovic\\Desktop\\Igraonica\\JavaApplication27\\slike\\cat-gamer-minimal-4k-ai.jpg")); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1000, -190, 2200, 990));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-900, -10, 1960, 640));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/slike/cat-gamer-minimal-4k-ai.jpg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(-930, -20, 2030, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -131,6 +134,8 @@ public class pristup extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPasswordField sifra2;
     // End of variables declaration//GEN-END:variables
 }
